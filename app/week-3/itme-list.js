@@ -1,6 +1,6 @@
-import item from "./item"
+import Item from "./item"
 
-export default function itemList(){
+export default function ItemList(){
 const item1 = {
   name: "milk, 4 L 🥛",
   quantity: 1,

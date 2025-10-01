@@ -1,12 +1,8 @@
-
-
-export default function item({name, quantity, category}){
-return (
-     <li className="flex justify-between items-center border-b py-2">
-      <span className="font-semibold">{name}</span>
-      <span className="text-gray-500"> : {quantity}</span>
-      <span className="text-blue-600 italic">{category}</span>
+export default function Item({ name, quantity, category }) {
+  return (
+    <li className="p-2 m-4 bg-slate-900 max-w-sm rounded-lg shadow">
+      <span className="block font-semibold text-white">{name}</span>
+      <span className="block text-gray-300">Buy {quantity} in {category}</span>
     </li>
   );
-
 }

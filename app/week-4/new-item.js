@@ -21,7 +21,7 @@ function increment() {
 
 return(
         <dev className="inline-flex items-center gap-2 bg-white rounded-full px-3 py-2 shadow">
-            <p>Quantity: {quantity}</p>
+            <p>{quantity}</p>
         <button
             onClick={decrement}
             disabled={quantity === 1}
